@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>爱的小屋 - 照片</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="description" content="个人摄影作品">
+    <meta name="keywords" content="摄影,照片,爱好">
+    <meta name="author" content="冯鹏" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="canonical" href="http://pungfen.net/view/photograph.html">
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <style>
+        .mod-content{
+            padding-top: 90px;
+        }
+        .mod-content figure{
+            margin-bottom: 18px;
+            text-align: center;
+        }
+        .mod-content img{
+            width: 100%;
+            max-width: 540px;
+        }
+        .mod-content p{
+            line-height: 32px;
+            color: #666;
+        }
+        .mod-content span{
+            margin:0 5px;
+        }
+        @media screen and (max-width: 800px)  {
+            .container{
+                padding: 0 15px;
+            }
+            .mod-content{
+                padding-top: 0;
+            }
+        }
+
+        #color-p{
+            background-image:-webkit-gradient( linear, left top,right top,
+            color-stop(0, #00a419),
+            color-stop(0.15, #f44336),
+            color-stop(0.15, #f44336),
+            color-stop(0.29, #ff4300),
+            color-stop(0.3, #AA00FF),
+            color-stop(0.4, #8BC34A),
+            color-stop(0.45, #607D8B),
+            color-stop(0.6, #4096EE),
+            color-stop(0.75, #D50000),
+            color-stop(0.9, #4096EE),
+            color-stop(1, #FF1A00));
+            color:transparent;
+            -webkit-background-clip:text;
+        }
+    </style>
+    <script>
+        (function(){ //IE低版本兼容
+            var e = ['footer','header','section'],
+                i= e.length;
+            while(i--){
+                document.createElement(e[i]);
+            }
+        })();
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="mod-head">
+            <h1><a href="/">爱的小屋</a></h1>
+            <p id="color-p">♥我们的点滴♥</p>
+        </div>
+        <div class="mod-list">
+            <ul>
+                <li><a href="../index.html">爱的小屋</a></li>
+                <li><a href="writing.html">记录</a></li>
+                <li><a href="project.html">瞬间</a></li>
+                <li class="active"><a href="photograph.html">点滴</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="mod-content">
+                <figure>
+                    <div><img src="../assets/img/IMG_20210620_171735.jpg" width="540"></div>
+                    <p><span>2021-06-20</span><span>大连·大连理工大学</span></p>
+                </figure>
+                <figure>
+                    <div><img src="../assets/img/IMG_20210920_190956.jpg" width="540"></div>
+                    <p><span>2021-09-20</span><span>西安·娘家牛排</span></p>
+                </figure>
+                <figure>
+                    <div><img src="../assets/img/IMG_20211001_134138.jpg" width="540"></div>
+                    <p><span>2021-10-01</span><span>大连·罗森</span></p>
+                </figure>
+                <figure>
+                    <div><img src="../assets/img/IMG_20211003_212108.jpg" width="540"></div>
+                    <p><span>2021-10-03</span><span>合影</span></p>
+                </figure>
+                <figure>
+                    <div><img src="../assets/img/IMG_20220206_130512.jpg" width="540"></div>
+                    <p><span>2022-02-06</span><span>大连·抓娃娃</span></p>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="mod-foot">
+            <p>Copyright &copy; <a href="/">pungfen.net</a></p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
