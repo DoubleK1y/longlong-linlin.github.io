@@ -11,20 +11,62 @@
     <link rel="icon" href="Love.ico">
     <link rel="canonical" href="https://www.baidu.com/">
     <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/indexs.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100
+            }
+        );
+        wow.init();
+
+    </script>
+
+
+    <!--轮播图start-->
+    <div class="j-main-slider" id="jMainSlider">
+        <div class="circle">
+            <ul>
+                <li><img src="first/img/IMG_20211003_212108.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20210620_171735.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20210920_190956.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20220206_130512.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20210620_171735.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20220206_130512.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20210620_171735.jpg" height="345" width="335" /></li>
+                <li><img src="first/img/IMG_20210620_171735.jpg" height="345" width="335" /></li>
+            </ul>
+            <ol>
+            </ol>
+        </div>
+        <div class="j-arrow">
+            <a class="arrow-l" id="arrowL"><</a>
+            <a class="arrow-r" id="arrowR">></a>
+        </div>
+    </div>
+    <!--轮播图end-->
     <style>
         .container {
             min-height: 100px;
-            background: url('first/img/background.jpg') center center repeat;
-            background-size: 300px 300px;
+            background: url('first/img/background.jpg') center no-repeat;
+            background-size: 1000px 1000px;
         }
 
         .mod-foot {
             color: #9ACD32;
         }
 
-        .mod-foot a {
-            color: #9ACD32;
-        }
+            .mod-foot a {
+                color: #9ACD32;
+            }
 
         .mod-content section {
             margin-bottom: 15px;
@@ -52,14 +94,13 @@
             padding: 0 2px;
         }
 
-        .mod-content a.hot {
-            color: #9ACD32;
-        }
+            .mod-content a.hot {
+                color: #9ACD32;
+            }
 
-        .mod-content a:hover {
-            border-bottom: 1px dotted #666;
-        }
-
+            .mod-content a:hover {
+                border-bottom: 1px dotted #666;
+            }
     </style>
 
 
@@ -76,6 +117,10 @@
 </head>
 
 <body>
+
+
+
+
 
     <div class="wrapper">
         <header>
